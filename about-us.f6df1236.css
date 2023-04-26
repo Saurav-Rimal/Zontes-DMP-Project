@@ -1,0 +1,233 @@
+@media only screen and (width >= 2600px) {
+  .blocker {
+    z-index: 9999999;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    position: fixed;
+  }
+
+  .small-blocker {
+    display: none;
+  }
+}
+
+@media only screen and (width <= 319px) {
+  .blocker {
+    z-index: 9999999;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    position: fixed;
+  }
+
+  .big-blocker {
+    display: none;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .single-bike .hero h1 {
+    margin-top: 0;
+  }
+
+  .single-bike .hero-text {
+    margin-top: 0;
+  }
+
+  .single-bike .view-360 {
+    height: auto;
+  }
+}
+
+@media screen and (width >= 600px) and (width <= 992px) {
+  header {
+    padding: 1rem;
+  }
+
+  .navbar {
+    gap: 2%;
+  }
+
+  .col-m-1 {
+    width: 12.5%;
+  }
+
+  .col-m-2 {
+    width: 25%;
+  }
+
+  .col-m-3 {
+    width: 37.5%;
+  }
+
+  .col-m-4 {
+    width: 50%;
+  }
+
+  .col-m-5 {
+    width: 62.5%;
+  }
+
+  .col-m-6 {
+    width: 75%;
+  }
+
+  .col-m-7 {
+    width: 87.5%;
+  }
+
+  .col-m-8 {
+    width: 100%;
+  }
+
+  .footer-section {
+    width: 100%;
+    background: #141414;
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .links {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .bike {
+    z-index: 3;
+    position: absolute;
+    top: 51%;
+    bottom: 0;
+    left: 50%;
+  }
+
+  .single-bike .hero h1 {
+    margin-top: 0;
+  }
+
+  .single-bike .hero-text {
+    margin-top: 2rem;
+  }
+
+  .sectionStlye {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  #clutchImg {
+    order: 1;
+  }
+}
+
+@media only screen and (width <= 600px) {
+  header {
+    padding: 1rem 1.5rem;
+  }
+
+  .navbar {
+    gap: 1%;
+  }
+
+  .col-s-1 {
+    width: 25%;
+  }
+
+  .col-s-2 {
+    width: 50%;
+  }
+
+  .col-s-3 {
+    width: 75%;
+  }
+
+  .col-s-4 {
+    width: 100%;
+  }
+
+  .links {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .single-bike .hero h1 {
+    margin-top: 0;
+  }
+
+  .single-bike .hero-text {
+    margin-top: 2rem;
+  }
+
+  .sectionStyle {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .breadcrumbs {
+    flex-direction: column-reverse;
+  }
+
+  #clutchImg {
+    order: 1;
+  }
+
+  .zontes-vid-1 {
+    margin-top: 15vw;
+    inset: 0;
+  }
+}
+
+/*# sourceMappingURL=about-us.f6df1236.css.map */
